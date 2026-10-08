@@ -1,9 +1,6 @@
 name: "Update image when Dockerfile is changed"
 
 on:
-  push:
-    branches:
-    - master
   workflow_dispatch:
 
 jobs:
